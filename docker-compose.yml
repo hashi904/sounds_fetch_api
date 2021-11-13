@@ -1,0 +1,16 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm run start:dev
+    # attach container
+    tty: true
+    # attach error out put
+    stdin_open: true
+
+    ports:
+      - "3220:3220" # ホストからゲストへポートフォワード
+    volumes:
+      - .:/app # ソースコード変更したらDocker側も即反映されるように

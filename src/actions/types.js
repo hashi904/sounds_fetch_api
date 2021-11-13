@@ -1,0 +1,36 @@
+// auth action
+export const GET_REGISTRATION_SUCCESS = 'GET_REGISTRATION_SUCCESS'
+export const GET_REGISTRATION_FAIL = 'GET_REGISTRATION_FAIL'
+export const SIGNUP_SUCCESS = 'SIGNUP_SUCCESS'
+export const SIGNUP_FAIL = 'SIGNUP_FAIL'
+export const SIGNIN_SUCCESS = 'SIGNIN_SUCCESS'
+export const SIGNIN_FAIL = 'SIGNIN_FAIL'
+export const SIGNOUT = 'SIGNOUT'
+export const DELETE_USER_SUCCESS = 'DELETE_USER_SUCCESS'
+export const DELETE_USER_FAIL = 'DELETE_USER_FAIL'
+
+// users action
+export const GET_USERS_SUCCESS = 'GET_USERS_SUCCESS'
+export const GET_USERS_FAIL = 'GET_USERS_FAIL'
+
+// search users action
+export const SEARCH_USERS_SUCCESS = 'SEARCH_USERS_SUCCESS'
+export const SEARCH_USERS_FAIL = 'SEARCH_USERS_FAIL'
+
+// user action
+export const GET_USER_SUCCESS = 'GET_USER_SUCCESS'
+export const GET_USER_FAIL = 'GET_USER_FAIL'
+
+// jpdate user action
+export const GET_UPDATE_USER_SUCCESS = 'GET_UPDATE_USER_SUCCESS'
+export const GET_UPDATE_USER_FAIL = 'GET_UPDATE_USER_FAIL'
+export const UPDATE_USER_SUCCESS = 'UPDATE_USER_SUCCESS'
+export const UPDATE_USER_FAIL = 'UPDATE_USER_FAIL'
+
+// changeMail action
+export const CHANGE_MAIL_SUCCESS = 'CHANGE_MAIL_SUCCESS'
+export const CHANGE_MAIL_FAIL = 'CHANGE_MAIL_FAIL'
+
+// changePassword action
+export const CHANGE_PASSWORD_SUCCESS = 'CHANGE_PASSWORD_SUCCESS'
+export const CHANGE_PASSWORD_FAIL = 'CHANGE_PASSWORD_FAIL'
